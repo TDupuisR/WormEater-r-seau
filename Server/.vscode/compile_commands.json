@@ -1,0 +1,16 @@
+[
+{
+  "directory": "/home/nirgigo/Documents/Unity/Projets/WormEater/Server",
+  "arguments": ["/usr/bin/g++", "-c", "-m64", "-std=c++20", "-fexceptions", "-finput-charset=UTF-8", "-fexec-charset=UTF-8", "-isystem", "/home/nirgigo/.xmake/packages/e/enet6/v6.1.2/fd698045e526494b9a852a35166e4ed5/include", "-g3", "-O2", "-Wall", "-Wextra", "-o", "build/.objs/WormEaterServer/linux/x86_64/release/sv_main.cpp.o", "sv_main.cpp"],
+  "file": "sv_main.cpp"
+},
+{
+  "directory": "/home/nirgigo/Documents/Unity/Projets/WormEater/Server",
+  "arguments": ["/usr/bin/g++", "-c", "-m64", "-std=c++20", "-fexceptions", "-finput-charset=UTF-8", "-fexec-charset=UTF-8", "-isystem", "/home/nirgigo/.xmake/packages/e/enet6/v6.1.2/fd698045e526494b9a852a35166e4ed5/include", "-g3", "-O2", "-Wall", "-Wextra", "-o", "build/.objs/WormEaterServer/linux/x86_64/release/sv_math.cpp.o", "sv_math.cpp"],
+  "file": "sv_math.cpp"
+},
+{
+  "directory": "/home/nirgigo/Documents/Unity/Projets/WormEater/Server",
+  "arguments": ["/usr/bin/g++", "-c", "-m64", "-std=c++20", "-fexceptions", "-finput-charset=UTF-8", "-fexec-charset=UTF-8", "-isystem", "/home/nirgigo/.xmake/packages/e/enet6/v6.1.2/fd698045e526494b9a852a35166e4ed5/include", "-g3", "-O2", "-Wall", "-Wextra", "-o", "build/.objs/WormEaterServer/linux/x86_64/release/sv_protocol.cpp.o", "sv_protocol.cpp"],
+  "file": "sv_protocol.cpp"
+}]

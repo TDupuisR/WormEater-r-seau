@@ -1,0 +1,14 @@
+{
+    enet6 = {
+        linkdirs = "/home/nirgigo/.xmake/packages/e/enet6/v6.1.2/fd698045e526494b9a852a35166e4ed5/lib",
+        links = "enet6",
+        license = "MIT",
+        installdir = "/home/nirgigo/.xmake/packages/e/enet6/v6.1.2/fd698045e526494b9a852a35166e4ed5",
+        libfiles = "/home/nirgigo/.xmake/packages/e/enet6/v6.1.2/fd698045e526494b9a852a35166e4ed5/lib/libenet6.a",
+        static = true,
+        version = "v6.1.2",
+        sysincludedirs = "/home/nirgigo/.xmake/packages/e/enet6/v6.1.2/fd698045e526494b9a852a35166e4ed5/include",
+        __requirestr = "enet6",
+        __enabled = true
+    }
+}
