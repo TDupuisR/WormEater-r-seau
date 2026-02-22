@@ -35,43 +35,42 @@ enum class GAME_STATE : std::uint8_t
 
 #pragma region PlayerPhysics
 
-    float GetVMax(bool IsWorm)
-    {
-        return IsWorm ? WVMax : HVMax;
-    }
-    float GetAcceleration(bool IsWorm)
-    {
-        return IsWorm ? WAcceleration : HAcceleration;
-    }
-    float GetDeceleration(bool IsWorm)
-    {
-        return IsWorm ? WDeceleration : HDeceleration;
-    }
-    float GetGroundLevel(bool IsWorm)
-    {
-        return IsWorm ? WGroundLevel : HGroundLevel;
-    }
-    
-    
     constexpr float GroundingTolerance = 0.2f;
-    
+
     // Worm
     constexpr float WVMax = 8.0f;
     constexpr float WAcceleration = 1.5f;
     constexpr float WDeceleration = 0.5f;
-    
+
     constexpr float WGroundLevel = -5.0f;
-    
+
     // Human
     constexpr float HVMax = 5.0f;
     constexpr float HAcceleration = 2.0f;
     constexpr float HDeceleration = 1.0f;
-    
+
     constexpr float HGroundLevel = 1.0f;
-    
+
     constexpr float HJumpPower = 6.0f;
     constexpr float HGravity = 9.81f;
 
+    inline float GetVMax(bool IsWorm)
+    {
+        return IsWorm ? WVMax : HVMax;
+    }
+    inline float GetAcceleration(bool IsWorm)
+    {
+        return IsWorm ? WAcceleration : HAcceleration;
+    }
+    inline float GetDeceleration(bool IsWorm)
+    {
+        return IsWorm ? WDeceleration : HDeceleration;
+    }
+    inline float GetGroundLevel(bool IsWorm)
+    {
+        return IsWorm ? WGroundLevel : HGroundLevel;
+    }
+    
 #pragma endregion
 
 #endif //_SV_CONSTANT_HPP

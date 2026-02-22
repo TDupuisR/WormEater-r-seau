@@ -10,32 +10,32 @@ struct Vector3f
     Vector3f(Vector3f&&) = default;
     ~Vector3f() = default;
 
-    inline Vector3f operator+(const Vector3f& vector) const;
-    inline Vector3f operator-(const Vector3f& vector) const;
-    inline Vector3f operator*(const float& value) const;
-    inline Vector3f operator/(const float& value) const;
+    Vector3f operator+(const Vector3f& vector) const;
+    Vector3f operator-(const Vector3f& vector) const;
+    Vector3f operator*(const float& value) const;
+    Vector3f operator/(const float& value) const;
 
-    inline Vector3f operator=(const Vector3f& vector);
-    inline Vector3f operator+=(const Vector3f& vector);
-    inline Vector3f operator-=(const Vector3f& vector);
-    inline Vector3f operator*=(const float& value);
-    inline Vector3f operator/=(const float& value);
+    Vector3f operator=(const Vector3f& vector);
+    Vector3f operator+=(const Vector3f& vector);
+    Vector3f operator-=(const Vector3f& vector);
+    Vector3f operator*=(const float& value);
+    Vector3f operator/=(const float& value);
 
-    inline Vector3f normalized() const;
-    inline float magnitude() const;
+    Vector3f normalized() const;
+    float magnitude() const;
 
 
-    inline static float Distance(const Vector3f& vectorA, const Vector3f& vectorB);
+    static float Distance(const Vector3f& vectorA, const Vector3f& vectorB);
 
-    inline static Vector3f One();
-    inline static Vector3f Zero();
+    static Vector3f One();
+    static Vector3f Zero();
 
-    inline static Vector3f Front();
-    inline static Vector3f Back();
-    inline static Vector3f Up();
-    inline static Vector3f Down();
-    inline static Vector3f Right();
-    inline static Vector3f Left();
+    static Vector3f Front();
+    static Vector3f Back();
+    static Vector3f Up();
+    static Vector3f Down();
+    static Vector3f Right();
+    static Vector3f Left();
 
 
     float x;
@@ -52,30 +52,30 @@ struct Vector2f
     Vector2f(Vector2f&&) = default;
     ~Vector2f() = default;
 
-    inline Vector2f operator+(const Vector2f& vector) const;
-    inline Vector2f operator-(const Vector2f& vector) const;
-    inline Vector2f operator*(const float& value) const;
-    inline Vector2f operator/(const float& value) const;
+    Vector2f operator+(const Vector2f& vector) const;
+    Vector2f operator-(const Vector2f& vector) const;
+    Vector2f operator*(const float& value) const;
+    Vector2f operator/(const float& value) const;
 
-    inline Vector2f operator=(const Vector2f& vector);
-    inline Vector2f operator+=(const Vector2f& vector);
-    inline Vector2f operator-=(const Vector2f& vector);
-    inline Vector2f operator*=(const float& value);
-    inline Vector2f operator/=(const float& value);
+    Vector2f operator=(const Vector2f& vector);
+    Vector2f operator+=(const Vector2f& vector);
+    Vector2f operator-=(const Vector2f& vector);
+    Vector2f operator*=(const float& value);
+    Vector2f operator/=(const float& value);
 
-    inline Vector2f normalized() const;
-    inline float magnitude() const;
+    Vector2f normalized() const;
+    float magnitude() const;
 
 
-    inline static float Distance(const Vector2f& vectorA, const Vector2f& vectorB);
+    static float Distance(const Vector2f& vectorA, const Vector2f& vectorB);
 
-    inline static Vector2f One();
-    inline static Vector2f Zero();
+    static Vector2f One();
+    static Vector2f Zero();
 
-    inline static Vector2f Up();
-    inline static Vector2f Down();
-    inline static Vector2f Right();
-    inline static Vector2f Left();
+    static Vector2f Up();
+    static Vector2f Down();
+    static Vector2f Right();
+    static Vector2f Left();
 
 
     float x;

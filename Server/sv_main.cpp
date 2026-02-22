@@ -269,15 +269,15 @@ int main(int argc, char** argv)
         auto deltaLogic = std::chrono::duration_cast<std::chrono::milliseconds>(now - lastTickLogic);
         if (deltaLogic >= LogicTickRate)
         {
-            TickLogic(gameData, std::chrono::duration<float>(deltaLogic).count());
+            tick_logic(gameData, std::chrono::duration<float>(deltaLogic).count());
 
             lastTickLogic = now;
         }
 
         auto deltaNetwork = std::chrono::duration_cast<std::chrono::milliseconds>(now - lastTickLogic);
-        if (deltaLogic >= NetworkTickRate)
+        if (deltaNetwork >= NetworkTickRate)
         {
-            TickLogic(gameData, std::chrono::duration<float>(deltaNetwork).count());
+            tick_network(gameData, std::chrono::duration<float>(deltaNetwork).count());
 
             lastTickLogic = now;
         }

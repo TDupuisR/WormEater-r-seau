@@ -1,16 +1,5 @@
 {
     cmdlines = {
-        "xmake run",
-        "xmake run",
-        "xmake run 14678",
-        "xmake ",
-        "xmake ",
-        "xmake run",
-        "xmake run",
-        "xmake run",
-        "xmake l /home/nirgigo/.vscode/extensions/tboox.xmake-vscode-2.5.4/assets/explorer.lua",
-        "xmake l /home/nirgigo/.vscode/extensions/tboox.xmake-vscode-2.5.4/assets/explorer.lua",
-        "xmake ",
         "xmake ",
         "xmake l /home/nirgigo/.vscode/extensions/tboox.xmake-vscode-2.5.4/assets/explorer.lua",
         "xmake l /home/nirgigo/.vscode/extensions/tboox.xmake-vscode-2.5.4/assets/config.lua",
@@ -64,6 +53,17 @@
         "xmake ",
         "xmake check",
         "xmake l /home/nirgigo/.vscode/extensions/tboox.xmake-vscode-2.5.4/assets/explorer.lua",
-        "xmake l /home/nirgigo/.vscode/extensions/tboox.xmake-vscode-2.5.4/assets/config.lua"
+        "xmake l /home/nirgigo/.vscode/extensions/tboox.xmake-vscode-2.5.4/assets/config.lua",
+        "xmake ",
+        "xmake l /home/nirgigo/.vscode/extensions/tboox.xmake-vscode-2.5.4/assets/explorer.lua",
+        "xmake l /home/nirgigo/.vscode/extensions/tboox.xmake-vscode-2.5.4/assets/config.lua",
+        "xmake ",
+        "xmake ",
+        "xmake ",
+        "xmake check",
+        "xmake ",
+        "xmake ",
+        "xmake ",
+        "xmake "
     }
 }

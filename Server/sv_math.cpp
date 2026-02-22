@@ -51,7 +51,7 @@ Vector3f Vector3f::operator/(const float &value) const
     return Vector3f(x / value, y / value, z / value);
 }
 
-inline Vector3f Vector3f::operator=(const Vector3f &vector)
+Vector3f Vector3f::operator=(const Vector3f &vector)
 {
     return Vector3f(vector);
 }
@@ -192,7 +192,7 @@ Vector2f Vector2f::operator/(const float &value) const
     return Vector2f(x / value, y / value);
 }
 
-inline Vector2f Vector2f::operator=(const Vector2f &vector)
+Vector2f Vector2f::operator=(const Vector2f &vector)
 {
     return Vector2f(vector);
 }
